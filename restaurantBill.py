@@ -71,7 +71,7 @@ while pilihan == "y":
         total
         harga = int(harga + ppn)
     elif pesan == "A2":
-        listnama = "Teh"
+        listnama = "Teh/Es"
         harga = (3000 * jumlahpesan)
         ppn = int(harga * 0.1)
         if jumlahpesan >= 10:
@@ -81,21 +81,21 @@ while pilihan == "y":
             diskon = (0)
             totalharga = int(harga + ppn)
     elif pesan == "B2":
-        listnama = "Jeruk"
+        listnama = "Jeruk/Es"
         harga = int(4000 * jumlahpesanan)
         ppn = int(harga * 0.1)
         diskon = 0
         total
         harga = int(harga + ppn)
     elif pesan == "C2":
-        listnama = "Lemon Tea"
+        listnama = "Lemon Tea/Es"
         harga = int(6000 * jumlahpesanan)
         ppn = int(harga * 0.1)
         diskon = 0
         total
         harga = int(harga + ppn)
     elif pesan == "D2":
-        listnama = "Susu"
+        listnama = "Susu/Es"
         harga = int(8000 * jumlahpesanan)
         ppn = int(harga * 0.1)
         diskon = 0
