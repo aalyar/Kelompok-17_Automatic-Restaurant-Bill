@@ -1,5 +1,5 @@
-pilihan = "y"
-while pilihan == "y":
+data = "y"
+while data == "y":
     print("""
 
     ******************************
@@ -7,7 +7,7 @@ while pilihan == "y":
         Selamat Menikmati
     ******************************
 
-    >>> MENU <<<
+    >>>>>>>>>>>> MENU <<<<<<<<<<<<
     Makanan
     ==============================
     A1. Ayam Saus Tiram              : Rp 30.000
@@ -19,11 +19,11 @@ while pilihan == "y":
 
     Minuman
     ==============================
-    A2. Teh/Es      : Rp 3.000
-    B2. Jeruk/Es    : Rp 4.000
-    C2. Lemon Tea/ES: Rp 6.000
-    D2. Susu/Es     : Rp 8.000
-    E2. Kopi        : Rp 10.000
+    A2. Teh/Es       : Rp 3.000
+    B2. Jeruk/Es     : Rp 4.000
+    C2. Lemon Tea/Es : Rp 6.000
+    D2. Susu/Es      : Rp 8.000
+    E2. Kopi         : Rp 10.000
     ==============================
     """)
 
@@ -65,11 +65,10 @@ while pilihan == "y":
         totalharga = int(harga + ppn)
     elif pesan == "E1":
         listnama = "Nasi Uduk"
-        harga = int(10000 * jumlahpesanan)
+        harga = int(10000 * jumlahpesan)
         ppn = int(harga * 0.1)
         diskon = 0
-        total
-        harga = int(harga + ppn)
+        totalharga = int(harga + ppn)
     elif pesan == "A2":
         listnama = "Teh/Es"
         harga = (3000 * jumlahpesan)
@@ -82,42 +81,38 @@ while pilihan == "y":
             totalharga = int(harga + ppn)
     elif pesan == "B2":
         listnama = "Jeruk/Es"
-        harga = int(4000 * jumlahpesanan)
+        harga = int(4000 * jumlahpesan)
         ppn = int(harga * 0.1)
         diskon = 0
-        total
-        harga = int(harga + ppn)
+        totalharga = int(harga + ppn)
     elif pesan == "C2":
         listnama = "Lemon Tea/Es"
-        harga = int(6000 * jumlahpesanan)
+        harga = int(6000 * jumlahpesan)
         ppn = int(harga * 0.1)
         diskon = 0
-        total
-        harga = int(harga + ppn)
+        totalharga = int(harga + ppn)
     elif pesan == "D2":
         listnama = "Susu/Es"
-        harga = int(8000 * jumlahpesanan)
+        harga = int(8000 * jumlahpesan)
         ppn = int(harga * 0.1)
         diskon = 0
-        total
-        harga = int(harga + ppn)
+        totalharga = int(harga + ppn)
     elif pesan == "E2":
         listnama = "Kopi"
-        harga = int(10000 * jumlahpesanan)
+        harga = int(10000 * jumlahpesan)
         ppn = int(harga * 0.1)
         diskon = 0
-        total
-        harga = int(harga + ppn)
+        totalharga = int(harga + ppn)
     else:
         listnama = "-"
         harga = "-"
         ppn = "-"
         diskon = "-"
         totalharga = "-"
-        pilihan = input("Menu tidak tersedia, silahkan masukkan kode menu yang tersedia. Silahkan ulangi kembali Y/N =")
+        pilihan = input("Menu tidak tersedia, silahkan masukkan kode menu yang tersedia. Silahkan ulangi kembali (y/n) =")
 
     print("--------------------------")
-    print("Restaurant ...")
+    print("Restaurant Bill")
     print("--------------------------")
     print("Menu :", listnama)
     print("Jumlah :", jumlahpesan)
@@ -127,4 +122,10 @@ while pilihan == "y":
     print("--------------------------")
     print("Total :", totalharga)
     print("--------------------------")
-    pilihan = input("Apakah anda ingin memesan lagi? Y/N =")
+    
+    def pilihan():
+        pilihan = input("Apakah anda ingin memesan lagi? (y/n) = ")
+        if tanya == 'y':
+            menu()
+        else:
+            exit()
