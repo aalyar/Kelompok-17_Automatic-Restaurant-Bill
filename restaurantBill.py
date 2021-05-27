@@ -125,16 +125,18 @@ while data == "y":
     
     def pilihan():
         pilihan = input("Apakah anda ingin memesan lagi? (y/n) = ")
-        if tanya == 'y':
+        if pilihan == 'y':
             menu()
         else:
             exit()
             
-    print("\nTotal harus Dibayar: ",totalharga)     
+    print("\nTotal harus Dibayar: ", totalharga)
     metode_pembayaran = str(input("Melakukan pembayaran melalui (Debit/Kredit/Ovo/Go-Pay) = "))
-    print ("Silahkan melakukan pembayaran melalui
-                Rekening = 98023813 BCA
-              Ovo/Go-Pay = 0875142378927")
+    print("""
+        Silahkan melakukan pembayaran melalui
+            Rekening = 98023813 BCA
+        Ovo / Go - Pay = 0875142378927
+        """)
     bayar = int(input("Pelanggan membayar sebesar :"))
     kembalian = int(bayar-totalharga)
-    print("Kembalian :", kembalian)  
+    print("Kembalian :", kembalian)
