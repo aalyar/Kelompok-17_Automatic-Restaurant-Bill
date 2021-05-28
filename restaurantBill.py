@@ -1,12 +1,8 @@
-data = "y"
-while data == "y":
-    print("""
-
+print("""
     ******************************
     Selamat Datang di Restaurant
         Selamat Menikmati
     ******************************
-
     >>>>>>>>>>>> MENU <<<<<<<<<<<<
     Makanan
     ==============================
@@ -16,7 +12,6 @@ while data == "y":
     D1. Ayam Lada Hitam              : Rp 30.000
     E1. Nasi Uduk                    : Rp 10.000 
     ==============================
-
     Minuman
     ==============================
     A2. Teh/Es       : Rp 3.000
@@ -27,113 +22,148 @@ while data == "y":
     ==============================
     """)
 
-    pelanggan = str(input("Nama Pelanggan ="))
-    nomormeja = int(input("Meja Nomor ="))
+pelanggan = str(input("Nama Pelanggan ="))
+nomormeja = int(input("Meja Nomor ="))
+
+total1 = 0
+menu1 = ""
+jumlahpesan = 0
+buah = 0
+diskon = ""
+ppn = 0
+
+def makanan():
+    global total1
+    global jumlahpesan
+    global menu1
+    global diskon
+    global ppn
+    print("\nMakanan")
     pesan = str(input("Masukkan Kode Menu ="))
     jumlahpesan = int(input("Jumlah Pesanan ="))
     if pesan == "A1":
-        listnama = "Ayam Saus Tiram"
+        menu1 = "Ayam Saus Tiram"
         harga = (30000 * jumlahpesan)
         ppn = int(harga * 0.1)
         if jumlahpesan >= 5:
             diskon = int(harga * 0.2)
-            totalharga = int(harga - diskon + ppn)
+            total1 = int(harga - diskon + ppn)
         else:
             diskon = (0)
-            totalharga = int(harga + ppn)
+            total1 = int(harga + ppn)
     elif pesan == "B1":
-        listnama = "Ayam Goreng Mentega"
+        menu1 = "Ayam Goreng Mentega"
         harga = (28000 * jumlahpesan)
         ppn = int(harga * 0.1)
         if jumlahpesan >= 5:
             diskon = int(harga * 0.2)
-            totalharga = int(harga - diskon + ppn)
+            total1 = int(harga - diskon + ppn)
         else:
             diskon = (0)
-            totalharga = int(harga + ppn)
+            total1 = int(harga + ppn)
     elif pesan == "C1":
-        listnama = "Ayam Goreng Crispy"
+        menu1 = "Ayam Goreng Crispy"
         harga = int(27000 * jumlahpesan)
         ppn = int(harga * 0.1)
         diskon = 0
-        totalharga = int(harga + ppn)
+        total1 = int(harga + ppn)
     elif pesan == "D1":
-        listnama = "Ayam Lada Hitam"
+        menu1 = "Ayam Lada Hitam"
         harga = int(30000 * jumlahpesan)
         ppn = int(harga * 0.1)
         diskon = 0
-        totalharga = int(harga + ppn)
+        total1 = int(harga + ppn)
     elif pesan == "E1":
-        listnama = "Nasi Uduk"
+        menu1 = "Nasi Uduk"
         harga = int(10000 * jumlahpesan)
         ppn = int(harga * 0.1)
         diskon = 0
-        totalharga = int(harga + ppn)
-    elif pesan == "A2":
-        listnama = "Teh/Es"
-        harga = (3000 * jumlahpesan)
+        total1 = int(harga + ppn)
+    else:
+        print("Menu tidak terdaftar, silahkan ulangi kembali")
+        makanan()
+
+makanan()
+
+total2 = 0
+menu2 = ""
+jumlah = 0
+
+def minuman():
+    global total2
+    global menu2
+    global jumlah
+    global diskon
+    global ppn
+    print("\nMinuman")
+    pesan = str(input("Masukkan Kode Menu ="))
+    jumlah = int(input("Jumlah Pesanan ="))
+
+    if pesan == "A2":
+        menu2 = "Teh/Es"
+        harga = (3000 * jumlah)
         ppn = int(harga * 0.1)
         if jumlahpesan >= 10:
             diskon = int(harga * 0.2)
-            totalharga = int(harga - diskon + ppn)
+            total2 = int(harga - diskon + ppn)
         else:
             diskon = (0)
-            totalharga = int(harga + ppn)
+            total2 = int(harga + ppn)
     elif pesan == "B2":
-        listnama = "Jeruk/Es"
-        harga = int(4000 * jumlahpesan)
+        menu2 = "Jeruk/Es"
+        harga = int(4000 * jumlah)
         ppn = int(harga * 0.1)
         diskon = 0
-        totalharga = int(harga + ppn)
+        total2 = int(harga + ppn)
     elif pesan == "C2":
-        listnama = "Lemon Tea/Es"
-        harga = int(6000 * jumlahpesan)
+        menu2 = "Lemon Tea/Es"
+        harga = int(6000 * jumlah)
         ppn = int(harga * 0.1)
         diskon = 0
-        totalharga = int(harga + ppn)
+        total2 = int(harga + ppn)
     elif pesan == "D2":
-        listnama = "Susu/Es"
-        harga = int(8000 * jumlahpesan)
+        menu2 = "Susu/Es"
+        harga = int(8000 * jumlah)
         ppn = int(harga * 0.1)
         diskon = 0
-        totalharga = int(harga + ppn)
+        total2 = int(harga + ppn)
     elif pesan == "E2":
-        listnama = "Kopi"
-        harga = int(10000 * jumlahpesan)
+        menu2 = "Kopi"
+        harga = int(10000 * jumlah)
         ppn = int(harga * 0.1)
         diskon = 0
-        totalharga = int(harga + ppn)
+        total2 = int(harga + ppn)
     else:
-        listnama = "-"
-        harga = "-"
-        ppn = "-"
-        diskon = "-"
-        totalharga = "-"
-        pilihan = input("Menu tidak tersedia, silahkan masukkan kode menu yang tersedia. Silahkan ulangi kembali (y/n) =")
+        print("Menu tidak terdaftar, silahkan ulangi kembali")
+        minuman()
+minuman()
 
-    print("--------------------------")
-    print("Pesanan")
-    print("--------------------------")
-    print("Menu :", listnama)
-    print("Jumlah :", jumlahpesan)
-    print("Harga :", harga)
-    print("Diskon :", diskon)
-    print("PPN :", ppn)
-    print("--------------------------")
-    print("Total :", totalharga)
-    print("--------------------------")
-    
-            
-    print("\nTotal harus Dibayar: ", totalharga)
-    metode_pembayaran = str(input("Melakukan pembayaran melalui (Cash/Kredit/Ovo/Go-Pay) ="))
-    print("""
+totalharga = total1+total2
+
+print("--------------------------")
+print("Pesanan")
+print("--------------------------")
+print("Menu :", menu1, "||", menu2)
+print("Jumlah :",jumlahpesan, "porsi", "||", jumlah, "buah")
+print("Harga :", total1, "+", total2)
+print("Diskon :", diskon)
+print("PPN :", ppn)
+print("--------------------------")
+print("Total :", totalharga)
+print("--------------------------")
+print(input("Apakah"))
+print(input("Apakah pesanan Anda sudah sesuai? Silahkan periksa kembali (y/n) ="))
+
+print("\nTotal harus Dibayar: ", totalharga)
+metode_pembayaran = str(input("Melakukan pembayaran melalui (Cash/Kredit/Ovo/Go-Pay) = "))
+print("""
         Silahkan melakukan pembayaran melalui
             Rekening = 98023813 BCA
         Ovo / Go - Pay = 0875142378927
         """)
-    bayar = int(input("Pelanggan membayar sebesar :"))
-    kembalian = int(bayar-totalharga)
-    print("Kembalian :", kembalian)
+bayar = int(input("Pelanggan membayar sebesar :"))
+kembalian = int(bayar - totalharga)
+print("Kembalian :", kembalian)
 
 print("\n=============================================================")
 print("                           STRUK                             ")
