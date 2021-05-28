@@ -156,9 +156,9 @@ print("Total :", totalharga)
 print("--------------------------")
 pastikan_pesanan = str(input("Apakah pesanan Anda sudah sesuai? Silahkan periksa kembali (y/n) ="))
 if pastikan_pesanan == 'y':
-    print("Silahkan lanjut ke metode pembayaran")
+    print("Silahkan lanjut ke pembayaran")
 else:
-    print("Masukkan kembali pesanan anda =  """"
+    print("Masukkan kembali pesanan Anda =  """"
         >>>>>>>>>>>> MENU <<<<<<<<<<<<
         Makanan
         ==============================
@@ -311,9 +311,9 @@ if metode_pembayaran == 'cash':
 elif metode_pembayaran == 'kredit':
     print("Silahlan melakukan pembayaran ke Rekening 98023813 BCA")
 elif metode_pembayaran == 'ovo/go-pay':
-    print("Silahkan melakukan pembayaran ke no Ovo / Go - Pay = 0875142378927")
+    print("Silahkan melakukan pembayaran ke Ovo/Go-Pay = 0875142378927")
 else:
-    print("maaf metode pembayaran tidak tersedia")
+    print("Maaf metode pembayaran tidak tersedia")
 pasti_bayar = str(input("Apakah sudah melakukan pembayaran? (y/n) = "))
 if pasti_bayar == 'y':
     print("Silahkan lanjut")
