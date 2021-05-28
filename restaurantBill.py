@@ -125,7 +125,7 @@ while data == "y":
     
             
     print("\nTotal harus Dibayar: ", totalharga)
-    metode_pembayaran = str(input("Melakukan pembayaran melalui (Debit/Kredit/Ovo/Go-Pay) = "))
+    metode_pembayaran = str(input("Melakukan pembayaran melalui (Cash/Kredit/Ovo/Go-Pay) ="))
     print("""
         Silahkan melakukan pembayaran melalui
             Rekening = 98023813 BCA
@@ -135,9 +135,9 @@ while data == "y":
     kembalian = int(bayar-totalharga)
     print("Kembalian :", kembalian)
 
-    print("\n==============================================")
-    print("                       STRUK                   ")
-    print("===============================================")
+    print("\n=============================================================")
+    print("                           STRUK                             ")
+    print("=============================================================")
     print(" Nama                :", pelanggan)
     print(" Meja                :", nomormeja)
     print(" Pesanan             :", listnama, "-", jumlahpesan, "porsi" , "-", totalharga)
@@ -145,4 +145,4 @@ while data == "y":
     print(" Metode Pembayaran   :", metode_pembayaran)
     print(" Nominal Bayar       : Rp.", bayar)
     print(" Kembalian           : Rp.", kembalian)
-    print("===============================================")
+    print("==============================================================")
