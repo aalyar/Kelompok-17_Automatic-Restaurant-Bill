@@ -123,12 +123,6 @@ while data == "y":
     print("Total :", totalharga)
     print("--------------------------")
     
-    def pilihan():
-        pilihan = input("Apakah anda ingin memesan lagi? (y/n) = ")
-        if pilihan == 'y':
-            menu()
-        else:
-            exit()
             
     print("\nTotal harus Dibayar: ", totalharga)
     metode_pembayaran = str(input("Melakukan pembayaran melalui (Debit/Kredit/Ovo/Go-Pay) = "))
