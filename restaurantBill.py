@@ -112,7 +112,7 @@ while data == "y":
         pilihan = input("Menu tidak tersedia, silahkan masukkan kode menu yang tersedia. Silahkan ulangi kembali (y/n) =")
 
     print("--------------------------")
-    print("Restaurant Bill")
+    print("Pesanan")
     print("--------------------------")
     print("Menu :", listnama)
     print("Jumlah :", jumlahpesan)
@@ -136,7 +136,7 @@ while data == "y":
     print("Kembalian :", kembalian)
 
     print("\n==============================================")
-    print("===================== BILL ====================")
+    print("                       STRUK                   ")
     print("===============================================")
     print(" Nama                :", pelanggan)
     print(" Meja                :", nomormeja)
