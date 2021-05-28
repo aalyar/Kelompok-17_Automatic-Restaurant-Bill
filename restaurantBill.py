@@ -156,11 +156,14 @@ print(input("Apakah pesanan Anda sudah sesuai? Silahkan periksa kembali (y/n) ="
 
 print("\nTotal harus Dibayar: ", totalharga)
 metode_pembayaran = str(input("Melakukan pembayaran melalui (Cash/Kredit/Ovo/Go-Pay) = "))
-print("""
-        Silahkan melakukan pembayaran melalui
-            Rekening = 98023813 BCA
-        Ovo / Go - Pay = 0875142378927
-        """)
+   if metode_pembayaran == 'Cash':
+      print("masukan nominal uang")
+   elif metode_pembayaran == 'Kredit':
+      print("Silahlan melakukan pembayaran ke Rekening 98023813 BCA")
+   elif metode_pembayaran == 'Ovo/Go-Pay':
+      print("silahkan melakukan pembayaran ke no Ovo / Go - Pay = 0875142378927")
+   else:
+      print("maaf metode pembayaran tidak tersedia")
 bayar = int(input("Pelanggan membayar sebesar :"))
 kembalian = int(bayar - totalharga)
 print("Kembalian :", kembalian)
