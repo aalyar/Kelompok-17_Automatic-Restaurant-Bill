@@ -151,8 +151,11 @@ print("PPN :", ppn)
 print("--------------------------")
 print("Total :", totalharga)
 print("--------------------------")
-print(input("Apakah"))
-print(input("Apakah pesanan Anda sudah sesuai? Silahkan periksa kembali (y/n) ="))
+pastikan_pesanan = str(input("Apakah pesanan Anda sudah sesuai? Silahkan periksa kembali (y/n) ="))
+   if pastikan_pesanan == 'y':
+      print("Silahkan lanjut ke metode pembayaran")
+   else:
+      print("Silahkan masukkan kembali pesanan anda")
 
 print("\nTotal harus Dibayar: ", totalharga)
 metode_pembayaran = str(input("Melakukan pembayaran melalui (Cash/Kredit/Ovo/Go-Pay) = "))
