@@ -414,8 +414,11 @@ else:
     print("Maaf pesanan anda dibatalkan")
     exit()
 bayar = int(input("Pelanggan membayar sebesar :"))
+if bayar < totalharga:
+    print("Maaf uang yanda masukkan kurang, Silahkan masukkan kembali")
+    bayar = int(input("Pelanggan membayar sebesar :"))
 kembalian = int(bayar - totalharga)
-print("Kembalian :", kembalian)
+
 
 print("\n=============================================================")
 print("                           STRUK                             ")
