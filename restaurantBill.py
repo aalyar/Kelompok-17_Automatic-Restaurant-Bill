@@ -327,7 +327,6 @@ else:
             menu2 = "Teh/Es"
             harga = (3000 * jumlah)
             ppn2 = int(harga * 0.1)
-            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
@@ -338,7 +337,6 @@ else:
             menu2 = "Jeruk/Es"
             harga = int(4000 * jumlah)
             ppn2 = int(harga * 0.1)
-            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
@@ -349,7 +347,6 @@ else:
             menu2 = "Lemon Tea/Es"
             harga = int(6000 * jumlah)
             ppn2 = int(harga * 0.1)
-            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
@@ -360,7 +357,6 @@ else:
             menu2 = "Susu/Es"
             harga = int(8000 * jumlah)
             ppn2 = int(harga * 0.1)
-            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
@@ -371,7 +367,6 @@ else:
             menu2 = "Kopi"
             harga = int(10000 * jumlah)
             ppn2 = int(harga * 0.1)
-            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
@@ -397,7 +392,6 @@ print("PPN :", ppntotal)
 print("--------------------------")
 print("Total :", totalharga)
 print("--------------------------")
-
 
 
 print("\nTotal harus Dibayar: ", totalharga)
@@ -436,4 +430,3 @@ print(" Kembalian           : Rp.", kembalian)
 print("==============================================================")
 print("                        TERIMA KASIH                          ")
 print("==============================================================")
-
