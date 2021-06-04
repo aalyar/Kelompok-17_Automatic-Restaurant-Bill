@@ -14,5 +14,7 @@ Berkas "Laporan Tugas Besar Tahap I"
 System Requirement
 
 
-Spesifikasi OS : Windows 10 atau lebih
+Spesifikasi OS : Windows 7 atau lebih, macOS
+
+
 Python Version : 3.7 atau lebih
