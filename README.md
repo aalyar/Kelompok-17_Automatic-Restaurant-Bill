@@ -10,3 +10,7 @@ Berkas "Diagram Alir Program"
         Merupakan lampiran berupa diagram alir yang menjelaskan cara kerja program
 
 Berkas "Laporan Tugas Besar Tahap I"
+
+System Requirement
+Spesifikasi OS : Windows 10 atau lebih
+Python Version : 3.7 atau lebih
