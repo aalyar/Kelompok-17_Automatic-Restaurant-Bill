@@ -21,6 +21,18 @@ Berkas "Program"
         Merupakan lampiran berupa program python yang
         berisi mengenai program bill restaurant otomatis yang kelompok kami buat
         
+Berkas “Pendukung Program”
+
+	    Merupakan
+        
+Berkas “Acuan/Inspirasi Program”
+
+	    Merupakan lampiran berupa inspirasi program yang kami gunakan sebagai referensi dalam pengembangan program bill kasir otomatis
+        
+Berkas “README.md”
+
+	    Merupakan penjelasan singkat isi dari repository
+        
         
 # System Requirement
 
