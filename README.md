@@ -60,15 +60,15 @@ Python Version : 3.7 atau lebih
 	Total Harga = Harga makanan/minuman  + PPN (10%)  - diskon  (20%)
 
 5. Setelah itu, pelanggan diminta untuk memilih apakah ingin memesan lagi atau tidak.
-   Apabila pelanggan memilih memesan kembali, maka program akan memunculkan display menu dan pelanggan diminta untuk memasukkan kode menu seperti di atas.
+   Apabila pelanggan memilih memesan kembali, maka program akan memunculkan _display_ menu dan pelanggan diminta untuk memasukkan kode menu seperti di atas.
 
 6. Jika pelanggan memilih tidak memesan kembali, maka pelanggan diminta untuk mengecek apakah pesanan yang dipesan sudah sesuai atau belum.
    Apabila pesanan belum sesuai maka program akan kembali menampilkan _display_ menu dan pelanggan diminta untuk memesan ulang.
    
 7. Jika pesanan telah sesuai, maka pelanggan diminta untuk membayar pesanan dengan beberapa metode pembayaran yang telah disediakan, sperti _cash_, kredit, ovo, atau go-pay.
    
-8. Lalu program akan menanyakan, apakah pelanggan telah melakukan pembayaran atau belum. 
-   Apabila pelanggan belum membayarkan pesanan yang dipesannya, maka program akan secara otomatis membatalkan transaksi pemesanan tersebut.
+8. Lalu program akan menanyakan, apakah pelanggan sudah melakukan pembayaran atau belum. 
+   Apabila pelanggan belum membayarkan pesanan, maka program akan secara otomatis membatalkan transaksi pemesanan tersebut.
    
 9. Jika pelanggan telah melakukan pembayaran, maka pelanggan akan diminta memasukkan jumlah nominal uang dibayarkan pada layar yang tertera. 
    Program akan secara otomatis memproses pembayaran pelaggan dan menghitung nominal uang kembalian
