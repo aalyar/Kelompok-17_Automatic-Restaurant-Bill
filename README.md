@@ -56,7 +56,8 @@ Python Version : 3.7 atau lebih
 
 4. Jika jumlah pesanan yang dipesan oleh pelanggan sesuai dengan stok yang dimiliki, maka secara otomatis program akan memunculkan total harga dari pesanan yang telah ditambah PPN dan dikurangi diskon.
    Pelanggan akan mendapatkan diskon apabila memesan makanan atau minuman >5
-        Total Harga = Harga makanan/minuman  + PPN (10%)  - diskon  (20%)
+        
+	Total Harga = Harga makanan/minuman  + PPN (10%)  - diskon  (20%)
 
 5. Setelah itu, pelanggan diminta untuk memilih apakah ingin memesan lagi atau tidak.
    Apabila pelanggan memilih memesan kembali, maka program akan memunculkan display menu dan pelanggan diminta untuk memasukkan kode menu seperti di atas.
