@@ -6,12 +6,12 @@ Program ini dibuat untuk membantu usaha di bidang makanan atau restauran dalam p
 
 # Repository
 
-Berkas "Diagram Alir Program"
+Berkas "18_Tubes_Diagram Alir Program"
     
         Merupakan lampiran berupa diagram alir yang 
         menjelaskan cara kerja program
 
-Berkas "Laporan Tugas Besar Tahap I"
+Berkas "18_Tubes_Laporan Tugas Besar Tahap I"
 
         Merupakan lampiran berupa laporan tugas besar tahap 1 yang
         menjelaskan mengenai gagasan ide program, yaitu automatic restaurant bill 
@@ -26,9 +26,9 @@ Berkas “Pendukung Program”
 	    Merupakan lampiran yang berguna sebagai pendukung
 	    jalannya program automatic restaurant bill
         
-Berkas “Acuan/Inspirasi Program”
+Berkas “18_Tubes_Referensi Program”
 
-	    Merupakan lampiran berupa inspirasi program yang dgunakan 
+	    Merupakan lampiran berupa inspirasi program yang digunakan 
 	    sebagai referensi dalam pengembangan program automatic restaurant bill
         
 Berkas “README.md”
