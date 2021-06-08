@@ -14,20 +14,22 @@ Berkas "Diagram Alir Program"
 Berkas "Laporan Tugas Besar Tahap I"
 
         Merupakan lampiran berupa laporan tugas besar tahap 1 yang
-        menjelaskan mengenai gagasan ide program oleh kelompok kami, yaitu bill restaurant otomatis 
+        menjelaskan mengenai gagasan ide program, yaitu automatic restaurant bill 
         
 Berkas "Program"
         
         Merupakan lampiran berupa program python yang
-        berisi mengenai program bill restaurant otomatis yang kelompok kami buat
+        berisi mengenai program automatic restaurant bill
         
 Berkas “Pendukung Program”
 
-	    Merupakan
+	    Merupakan lampiran yang berguna sebagai pendukung
+	    jalannya program automatic restaurant bill
         
 Berkas “Acuan/Inspirasi Program”
 
-	    Merupakan lampiran berupa inspirasi program yang kami gunakan sebagai referensi dalam pengembangan program bill kasir otomatis
+	    Merupakan lampiran berupa inspirasi program yang dgunakan 
+	    sebagai referensi dalam pengembangan program automatic restaurant bill
         
 Berkas “README.md”
 
@@ -46,7 +48,7 @@ Python Version : 3.7 atau lebih
 # Penjelasan Singkat Program
 
 
-1. Pelanggan restautant diminta untuk memasukkan nama dan nomor meja pada _display_ kasir.
+1. Pelanggan restaurant diminta untuk memasukkan nama dan nomor meja pada _display_ kasir.
    
 2. Setelah ter-_input_, pelanggan dapat mememesan makanan dan minuman dengan menuliskan kode menu yang tertera pada layar.
    Apabila kode menu tidak sesuai, pelanggan akan diminta untuk mengisi ulang kode menu hingga sesuai.
