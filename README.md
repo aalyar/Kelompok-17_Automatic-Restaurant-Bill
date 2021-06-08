@@ -16,7 +16,7 @@ Berkas "18_Tubes_Laporan Tugas Besar Tahap I"
         Merupakan lampiran berupa laporan tugas besar tahap 1 yang
         menjelaskan mengenai gagasan ide program, yaitu automatic restaurant bill 
         
-Berkas "Program"
+Berkas "restaurantBill.py"
         
         Merupakan lampiran berupa program python yang
         berisi mengenai program automatic restaurant bill
