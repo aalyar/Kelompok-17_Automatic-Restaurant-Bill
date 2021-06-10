@@ -1,3 +1,5 @@
+from datetime import datetime
+
 print("""
     ******************************
     Selamat Datang di Restaurant
@@ -327,6 +329,7 @@ else:
             menu2 = "Teh/Es"
             harga = (3000 * jumlah)
             ppn2 = int(harga * 0.1)
+            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
@@ -337,6 +340,7 @@ else:
             menu2 = "Jeruk/Es"
             harga = int(4000 * jumlah)
             ppn2 = int(harga * 0.1)
+            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
@@ -347,6 +351,7 @@ else:
             menu2 = "Lemon Tea/Es"
             harga = int(6000 * jumlah)
             ppn2 = int(harga * 0.1)
+            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
@@ -357,6 +362,7 @@ else:
             menu2 = "Susu/Es"
             harga = int(8000 * jumlah)
             ppn2 = int(harga * 0.1)
+            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
@@ -367,6 +373,7 @@ else:
             menu2 = "Kopi"
             harga = int(10000 * jumlah)
             ppn2 = int(harga * 0.1)
+            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
@@ -394,6 +401,7 @@ print("Total :", totalharga)
 print("--------------------------")
 
 
+
 print("\nTotal harus Dibayar: ", totalharga)
 metode_pembayaran = str(input("Melakukan pembayaran melalui (Cash/Kredit/Ovo/Go-Pay) = "))
 if metode_pembayaran == 'cash':
@@ -414,15 +422,14 @@ else:
     print("Maaf pesanan anda dibatalkan")
     exit()
 bayar = int(input("Pelanggan membayar sebesar :"))
-if bayar < totalharga:
-    print("Maaf uang yanda masukkan kurang, Silahkan masukkan kembali")
-    bayar = int(input("Pelanggan membayar sebesar :"))
 kembalian = int(bayar - totalharga)
 
-
+waktu = datetime.now()
+#Open file txt
 print("\n=============================================================")
 print("                           STRUK                             ")
 print("=============================================================")
+print("                         ",waktu)
 print(" Nama                :", pelanggan)
 print(" Meja                :", nomormeja)
 print(" Pesanan             :" ,jumlahpesan, menu1, "dan", jumlah, menu2)
@@ -433,3 +440,24 @@ print(" Kembalian           : Rp.", kembalian)
 print("==============================================================")
 print("                        TERIMA KASIH                          ")
 print("==============================================================")
+
+struk = "\n=============================================================" \
+        "\n                           STRUK                             " \
+        "\n=============================================================" \
+        "\n                                   {}".format(waktu)
+struk1 = "\nNama: {}\nMeja: {}\nJumlah Pesan Makanan: {}\nMenu Makanan: {}\nJumlah Pesan Minuman: {}\nMenu Minuman: {}\nTotal: {}\nMetode Pembayaran: {}\nNominal Bayar: {}\nKembalian: {}".format(pelanggan, nomormeja,jumlahpesan, menu1, jumlah, menu2, totalharga, metode_pembayaran, bayar, kembalian)
+struk2 = "\n=============================================================" \
+         "\n                        TERIMA KASIH                         " \
+         "\n============================================================="
+
+file_data = open("struk.txt", "a")
+file_data.write(struk)
+file_data.write(struk1)
+file_data.write(struk2)
+file_data.close()
+
+file_data = open("struk fix.csv", "a+")
+file_data.write(struk)
+file_data.write(struk1)
+file_data.write(struk2)
+file_data.close()
