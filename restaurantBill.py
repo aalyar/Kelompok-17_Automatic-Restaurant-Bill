@@ -407,7 +407,13 @@ metode_pembayaran = str(input("Melakukan pembayaran melalui (Cash/Kredit/Ovo/Go-
 if metode_pembayaran == 'cash':
     print("Silahkan menuju kasir dan melakukan pembayaran")
 elif metode_pembayaran == 'kredit':
-    print("Silahlan melakukan pembayaran ke Rekening 98023813 BCA")
+     print("Silahkan melakukan pembayaran ke Rekening 98023813 BCA")
+    pin_kredit = input("Silahkan masukkan PIN anda (Masukkan PIN sebanyak 6 digit) = ")
+    if len(pin_kredit) < 6 or len(pin_kredit) > 6:
+        print("Maaf PIN yang anda masukkan tidak terdaftar, silahkan masukkan ulang")
+        pin_kredit = input("Silahkan masukkan PIN anda (Masukkan PIN sebanyak 6 digit) = ")
+    else:
+        print("PIN yang anda masukkan terdaftar")
 elif metode_pembayaran == 'ovo':
     print("Silahkan melakukan pembayaran ke no Ovo = 0875142378927")
 elif metode_pembayaran == 'go-pay':
