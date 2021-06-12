@@ -21,7 +21,7 @@ Berkas "restaurantBill.py"
         Merupakan lampiran berupa program python yang
         berisi mengenai program automatic restaurant bill
         
-Berkas “Pendukung Program”
+Berkas “struk_pendukung program”
 
 	    Merupakan lampiran yang berguna sebagai pendukung
 	    jalannya program automatic restaurant bill
