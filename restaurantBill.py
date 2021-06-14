@@ -55,7 +55,7 @@ def makanan():
                 print("Maaf stok menu yang tersedia hanya 10")
                 return(makanan())
             else:
-                print("Pesanan yang anda pesan sebanyak = ", jumlahpesan)
+                print("Pesanan yang Anda pesan sebanyak = ", jumlahpesan)
         else:
             total1 = int(harga + ppn1)
     elif pesan == "b1":
@@ -69,7 +69,7 @@ def makanan():
                 print("Maaf stok menu yang tersedia hanya 10")
                 return (makanan())
             else:
-                print("Pesanan yang anda pesan sebanyak = ", jumlahpesan)
+                print("Pesanan yang Anda pesan sebanyak = ", jumlahpesan)
         else:
             total1 = int(harga + ppn1)
     elif pesan == "c1":
@@ -83,7 +83,7 @@ def makanan():
                 print("Maaf stok menu yang tersedia hanya 10")
                 return (makanan())
             else:
-                print("Pesanan yang anda pesan sebanyak = ", jumlahpesan)
+                print("Pesanan yang Anda pesan sebanyak = ", jumlahpesan)
         else:
             total1 = int(harga + ppn1)
     elif pesan == "d1":
@@ -97,7 +97,7 @@ def makanan():
                 print("Maaf stok menu yang tersedia hanya 10")
                 return (makanan())
             else:
-                print("Pesanan yang anda pesan sebanyak = ", jumlahpesan)
+                print("Pesanan yang Anda pesan sebanyak = ", jumlahpesan)
         else:
             total1 = int(harga + ppn1)
     elif pesan == "e1":
@@ -111,11 +111,11 @@ def makanan():
                 print("Maaf stok menu yang tersedia hanya 10")
                 return (makanan())
             else:
-                print("Pesanan yang anda pesan sebanyak = ", jumlahpesan)
+                print("Pesanan yang Anda pesan sebanyak = ", jumlahpesan)
         else:
             total1 = int(harga + ppn1)
     else:
-        print("Menu tidak terdaftar, silahkan masukkan kembali pesanan anda")
+        print("Menu tidak terdaftar, silahkan masukkan kembali pesanan Anda")
         makanan()
 makanan()
 
@@ -142,7 +142,7 @@ def minuman():
             print("Maaf stok menu yang tersedia hanya 10")
             return (minuman())
         else:
-            print("Pesanan yang anda pesan sebanyak = ", jumlah)
+            print("Pesanan yang Anda pesan sebanyak = ", jumlah)
     elif pesan == "b2":
         menu2 = "Jeruk/Es"
         harga = int(4000 * jumlah)
@@ -152,7 +152,7 @@ def minuman():
             print("Maaf stok menu yang tersedia hanya 10")
             return (minuman())
         else:
-            print("Pesanan yang anda pesan sebanyak = ", jumlah)
+            print("Pesanan yang Anda pesan sebanyak = ", jumlah)
     elif pesan == "c2":
         menu2 = "Lemon Tea/Es"
         harga = int(6000 * jumlah)
@@ -162,7 +162,7 @@ def minuman():
             print("Maaf stok menu yang tersedia hanya 10")
             return (minuman())
         else:
-            print("Pesanan yang anda pesan sebanyak = ", jumlah)
+            print("Pesanan yang Anda pesan sebanyak = ", jumlah)
     elif pesan == "d2":
         menu2 = "Susu/Es"
         harga = int(8000 * jumlah)
@@ -172,7 +172,7 @@ def minuman():
             print("Maaf stok menu yang tersedia hanya 10")
             return (minuman())
         else:
-            print("Pesanan yang anda pesan sebanyak = ", jumlah)
+            print("Pesanan yang Anda pesan sebanyak = ", jumlah)
     elif pesan == "e2":
         menu2 = "Kopi"
         harga = int(10000 * jumlah)
@@ -182,9 +182,9 @@ def minuman():
             print("Maaf stok menu yang tersedia hanya 10")
             return (minuman())
         else:
-            print("Pesanan yang anda pesan sebanyak = ", jumlah)
+            print("Pesanan yang Anda pesan sebanyak = ", jumlah)
     else:
-        print("Menu tidak terdaftar, silahkan masukkan kembali pesanan anda")
+        print("Menu tidak terdaftar, silahkan masukkan kembali pesanan Anda")
         minuman()
 minuman()
 
@@ -246,7 +246,7 @@ else:
                     print("Maaf stok menu yang tersedia hanya 10")
                     return (makanan())
                 else:
-                    print("Pesanan yang anda pesan sebanyak = ", jumlahpesan)
+                    print("Pesanan yang Anda pesan sebanyak = ", jumlahpesan)
             else:
                 total1 = int(harga + ppn1)
         elif pesan == "b1":
@@ -260,7 +260,7 @@ else:
                     print("Maaf stok menu yang tersedia hanya 10")
                     return (makanan())
                 else:
-                    print("Pesanan yang anda pesan sebanyak = ", jumlahpesan)
+                    print("Pesanan yang Anda pesan sebanyak = ", jumlahpesan)
             else:
                 total1 = int(harga + ppn1)
         elif pesan == "c1":
@@ -274,7 +274,7 @@ else:
                     print("Maaf stok menu yang tersedia hanya 10")
                     return (makanan())
                 else:
-                    print("Pesanan yang anda pesan sebanyak = ", jumlahpesan)
+                    print("Pesanan yang Anda pesan sebanyak = ", jumlahpesan)
             else:
                 total1 = int(harga + ppn1)
         elif pesan == "d1":
@@ -288,7 +288,7 @@ else:
                     print("Maaf stok menu yang tersedia hanya 10")
                     return (makanan())
                 else:
-                    print("Pesanan yang anda pesan sebanyak = ", jumlahpesan)
+                    print("Pesanan yang Anda pesan sebanyak = ", jumlahpesan)
             else:
                 total1 = int(harga + ppn1)
         elif pesan == "e1":
@@ -302,11 +302,11 @@ else:
                     print("Maaf stok menu yang tersedia hanya 10")
                     return (makanan())
                 else:
-                    print("Pesanan yang anda pesan sebanyak = ", jumlahpesan)
+                    print("Pesanan yang Anda pesan sebanyak = ", jumlahpesan)
             else:
                 total1 = int(harga + ppn1)
         else:
-            print("Menu tidak terdaftar, silahkan masukkan kembali pesanan anda")
+            print("Menu tidak terdaftar, silahkan masukkan kembali pesanan Anda")
             makanan()
     makanan()
 
@@ -329,13 +329,12 @@ else:
             menu2 = "Teh/Es"
             harga = (3000 * jumlah)
             ppn2 = int(harga * 0.1)
-            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
                 return (minuman())
             else:
-                print("Pesanan yang anda pesan sebanyak = ", jumlah)
+                print("Pesanan yang Anda pesan sebanyak = ", jumlah)
         elif pesan == "b2":
             menu2 = "Jeruk/Es"
             harga = int(4000 * jumlah)
@@ -346,42 +345,39 @@ else:
                 print("Maaf stok menu yang tersedia hanya 10")
                 return (minuman())
             else:
-                print("Pesanan yang anda pesan sebanyak = ", jumlah)
+                print("Pesanan yang Anda pesan sebanyak = ", jumlah)
         elif pesan == "c2":
             menu2 = "Lemon Tea/Es"
             harga = int(6000 * jumlah)
             ppn2 = int(harga * 0.1)
-            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
                 return (minuman())
             else:
-                print("Pesanan yang anda pesan sebanyak = ", jumlah)
+                print("Pesanan yang Anda pesan sebanyak = ", jumlah)
         elif pesan == "d2":
             menu2 = "Susu/Es"
             harga = int(8000 * jumlah)
             ppn2 = int(harga * 0.1)
-            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
                 return (minuman())
             else:
-                print("Pesanan yang anda pesan sebanyak = ", jumlah)
+                print("Pesanan yang Anda pesan sebanyak = ", jumlah)
         elif pesan == "e2":
             menu2 = "Kopi"
             harga = int(10000 * jumlah)
             ppn2 = int(harga * 0.1)
-            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
                 return (minuman())
             else:
-                print("Pesanan yang anda pesan sebanyak = ", jumlah)
+                print("Pesanan yang Anda pesan sebanyak = ", jumlah)
         else:
-            print("Menu tidak terdaftar, silahkan masukkan kembali pesanan anda")
+            print("Menu tidak terdaftar, silahkan masukkan kembali pesanan Anda")
             minuman()
     minuman()
 
@@ -408,28 +404,28 @@ if metode_pembayaran == 'cash':
     print("Silahkan menuju kasir dan melakukan pembayaran")
 elif metode_pembayaran == 'kredit':
      print("Silahkan melakukan pembayaran ke Rekening 98023813 BCA")
-    pin_kredit = input("Silahkan masukkan PIN anda (Masukkan PIN sebanyak 6 digit) = ")
+    pin_kredit = input("Silahkan masukkan PIN Anda (Masukkan PIN sebanyak 6 digit) = ")
     if len(pin_kredit) < 6 or len(pin_kredit) > 6:
-        print("Maaf PIN yang anda masukkan tidak terdaftar, silahkan masukkan ulang")
-        pin_kredit = input("Silahkan masukkan PIN anda (Masukkan PIN sebanyak 6 digit) = ")
+        print("Maaf PIN yang Anda masukkan tidak terdaftar, silahkan masukkan ulang")
+        pin_kredit = input("Silahkan masukkan PIN Anda (Masukkan PIN sebanyak 6 digit) = ")
     else:
-        print("PIN yang anda masukkan terdaftar")
+        print("PIN yang Anda masukkan terdaftar")
 elif metode_pembayaran == 'ovo':
     print("Silahkan melakukan pembayaran ke no Ovo = 0875142378927")
 elif metode_pembayaran == 'go-pay':
     print("Silahkan melakukan pembayaran ke no Go-Pay = 0875142378927")
 else:
-    print("maaf metode pembayaran tidak tersedia")
+    print("Maaf metode pembayaran tidak tersedia")
     exit()
 pasti_bayar = str(input("Apakah sudah melakukan pembayaran? (y/n) = "))
 if pasti_bayar == 'y':
     print("Silahkan lanjut")
 else:
-    print("Maaf pesanan anda dibatalkan")
+    print("Maaf pesanan Anda dibatalkan")
     exit()
 bayar = int(input("Pelanggan membayar sebesar :"))
 if bayar < totalharga:
-    print("Maaf uang yang anda masukkan kurang, Silahkan masukkan kembali")
+    print("Maaf uang yang Anda masukkan kurang, Silahkan masukkan kembali")
     bayar = int(input("Pelanggan membayar sebesar :"))
 kembalian = int(bayar - totalharga)
 
