@@ -428,6 +428,9 @@ else:
     print("Maaf pesanan anda dibatalkan")
     exit()
 bayar = int(input("Pelanggan membayar sebesar :"))
+if bayar < totalharga:
+    print("Maaf uang yang anda masukkan kurang, Silahkan masukkan kembali")
+    bayar = int(input("Pelanggan membayar sebesar :"))
 kembalian = int(bayar - totalharga)
 
 waktu = datetime.now()
