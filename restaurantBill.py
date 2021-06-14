@@ -339,7 +339,6 @@ else:
             menu2 = "Jeruk/Es"
             harga = int(4000 * jumlah)
             ppn2 = int(harga * 0.1)
-            diskon = 0
             total2 = int(harga + ppn2)
             if jumlah > 10:
                 print("Maaf stok menu yang tersedia hanya 10")
@@ -403,13 +402,13 @@ metode_pembayaran = str(input("Melakukan pembayaran melalui (Cash/Kredit/Ovo/Go-
 if metode_pembayaran == 'cash':
     print("Silahkan menuju kasir dan melakukan pembayaran")
 elif metode_pembayaran == 'kredit':
-     print("Silahkan melakukan pembayaran ke Rekening 98023813 BCA")
+    print("Silahkan melakukan pembayaran ke Rekening 98023813 BCA")
     pin_kredit = input("Silahkan masukkan PIN Anda (Masukkan PIN sebanyak 6 digit) = ")
     if len(pin_kredit) < 6 or len(pin_kredit) > 6:
-        print("Maaf PIN yang Anda masukkan tidak terdaftar, silahkan masukkan ulang")
-        pin_kredit = input("Silahkan masukkan PIN Anda (Masukkan PIN sebanyak 6 digit) = ")
+       print("Maaf PIN yang Anda masukkan tidak terdaftar, silahkan masukkan ulang")
+       pin_kredit = input("Silahkan masukkan PIN Anda (Masukkan PIN sebanyak 6 digit) = ")
     else:
-        print("PIN yang Anda masukkan terdaftar")
+       print("PIN yang Anda masukkan terdaftar")
 elif metode_pembayaran == 'ovo':
     print("Silahkan melakukan pembayaran ke no Ovo = 0875142378927")
 elif metode_pembayaran == 'go-pay':
