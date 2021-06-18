@@ -23,17 +23,22 @@ Berkas "restaurantBill.py"
         
 Berkas “struk_pendukung program”
 
-	    Merupakan lampiran yang berguna sebagai pendukung
-	    jalannya program automatic restaurant bill
+	     Merupakan lampiran yang berguna sebagai pendukung
+	     jalannya program automatic restaurant bill
         
 Berkas “18_Tubes_Referensi Program”
 
-	    Merupakan lampiran berupa inspirasi program yang digunakan 
-	    sebagai referensi dalam pengembangan program automatic restaurant bill
+	     Merupakan lampiran berupa inspirasi program yang digunakan 
+	     sebagai referensi dalam pengembangan program automatic restaurant bill
+	    
+Berkas “18_Tubes_PPT”
+
+	     Merupakan lampiran berupa Power Point 
+	     sebagai ringkasan informasi program automatic restaurant bill	 
         
 Berkas “README.md”
 
-	    Merupakan penjelasan singkat isi dari repository
+	     Merupakan penjelasan singkat isi dari repository
         
         
 # System Requirement
